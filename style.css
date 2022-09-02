@@ -1,0 +1,103 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+/* Sets background color and centers text on header */
+header {
+  padding: 10px;
+  text-align: center;
+  background-color: #540b0e;
+}
+
+/* font for 'Katie Gaines' */
+h1 {
+  font-size: 60px;
+  font-family: Palatino, Serif;
+  margin: 10px;
+  color: white;
+}
+
+/* font for main sub-heading */
+h3 {
+  font-family: Nuptial, Serif;
+  color: white;
+}
+
+/* link styling */
+a:link     {color: #772e25}
+a:visited  {color: #c44536}
+a:hover    {color: #283d3b}
+a:active   {color: #197278}
+
+/* nav styling */
+nav {
+  text-align: right;
+  font-size: 20px;
+}
+
+/* background color for main section */
+main {
+  background-color: #edddd4;
+}
+
+/* Katie Profile image styling */
+main img {
+  height: 450px;
+  width: 450px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* horizontal rule styling */
+hr {
+  width: 15px;
+  height: 15px;
+  border: none;
+  background: #772e25;
+  color: #772e25;
+  margin-top: 20px;
+  margin-bottom: 0;
+  transform: rotate(45deg);
+}
+
+/* sets articles in the center */
+.centered {
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: 425px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+/* font styling for article sub-headings */
+h2 {
+  color: #283d3b;
+  font-size: 30px;
+  text-align: center;
+}
+
+/* general font styling */
+p, ul, ol, main a {
+  color: black;
+  font-family: Arial, sans-serif;
+}
+
+/* footer styling */
+footer {
+  background-color: #197278;
+  text-align: center;
+}
+
+footer p {
+  color: white;
+}
+
+/* pseudo class that connects main containers */
+.wrapper {
+  overflow: hidden;
+  border: 0;
+  margin: 0;
+}
